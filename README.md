@@ -2,6 +2,31 @@
 
 Prototipo de landing page moderna para Burger Luna construido con **React + Vite + TypeScript + Tailwind + Framer Motion + Lucide**.
 
+## Estructura base del proyecto
+
+```text
+burger-luna-demo/
+├─ public/
+│  ├─ favicon.svg
+│  └─ logo-burger-luna.svg
+├─ src/
+│  ├─ components/
+│  │  ├─ layout/
+│  │  └─ sections/
+│  ├─ assets/
+│  ├─ data/
+│  ├─ types/
+│  ├─ App.tsx
+│  ├─ index.css
+│  └─ main.tsx
+├─ index.html
+├─ package.json
+├─ postcss.config.js
+├─ tailwind.config.js
+├─ tsconfig.json
+└─ vite.config.ts
+```
+
 ## Desarrollo local
 
 ```bash
@@ -26,10 +51,3 @@ npm run preview
    - Build Command: `npm run build`
    - Output Directory: `dist`
 6. Pulsa **Deploy**.
-
-## Estructura
-
-- `src/components/`: componentes reutilizables de secciones de la landing.
-- `src/App.tsx`: composición de la landing.
-- `tailwind.config.js`: paleta y estilos extendidos de marca.
-
